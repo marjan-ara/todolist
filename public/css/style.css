@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IRAN Sans Regular.eot");
+  src: url("../fonts/IRAN Sans Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/IRAN Sans Regular.woff2") format("woff2"),
+    url("../fonts/IRAN Sans Regular.woff") format("woff"),
+    url("../fonts/IRAN Sans Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "dastnevis";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/dastnevis.otf");
+}
+
+body {
+  margin: 0;
+  font-family: "dastnevis" !important;
+  direction: rtl;
+  background: url("../img/bgImg2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.centered {
+  direction: rtl;
+  border-radius: 10px;
+  background-color: #efefef;
+  /* border: 3px solid blue; */
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+.headerP {
+  font-size: 25px !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-hr {
+  border: 1px solid;
+}
+.input-group-task {
+  width: 90%;
+  justify-content: center;
+}
+.add-input {
+  border: none !important;
+  background-color: transparent;
+  /* clip-path: inset(0 17px 0 0); */
+  outline: none;
+  outline: 0;
+  width: 80%;
+  float: right;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+.add-btn {
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+
+.row-task {
+  direction: rtl;
+  border-top: solid 1px;
+  text-align: right;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 30px;
+   width: 100%;
+  justify-content: center;
+}
+.btn-row {
+  float: left;
+  display: none !important;
+}
+
+.row-task:hover .btn-row {
+  display: block !important; /* On :hover of div show button */
+}
